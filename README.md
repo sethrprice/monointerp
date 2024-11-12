@@ -10,6 +10,8 @@ It also cannot extrapolate outide the range of x and will return an error if you
 
 # Usage
 
+This is an example usage in which we create an x-axis, some y values (in this rather uninteresting case y = 2x + 1), and a some query coordinates (halfway between the x points), and find the interpolated values at those query coordinates.
+
 ```rust
 let x: Vec<f64> = (0..100).map(|val| val as f64).collect();
 let y: Vec<f64> = x.iter().map(|val| 2. * val + 1.).collect();
@@ -23,9 +25,9 @@ Not currently available on crates.io or anything like that.
 
 # Dependencies
 
-This library relies on the following dependencies:
+This library relies on the following dependencies, which are already in `Cargo.toml`:
 
-**[num-traits](https://crates.io/crates/num-traits)0.2.19
+- **[num-traits](https://crates.io/crates/num-traits) 0.2.19
 
 To install dependencies, run 
 
