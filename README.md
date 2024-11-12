@@ -1,6 +1,6 @@
 # Introduction
 
-This is a replica of JohannesBuchner's fast linear interpolation C library in Rust, only without the integration. 
+This is a replica of @JohannesBuchner's fast linear interpolation C library in Rust, only without the integration. 
 
 Like numpy.interp or Matlab's interp1, it takes a query vec, an x vec (coordinates), and a y vec (values) and returns a Result containing a vec of y values that correspond to the query points. Unlike numpy.interp and interp1, it assumes the x coordinate vec is ordered, which avoids the need to run a binary search every iteration. Instead, the binary search is run once and then we assume the next coordinate is close to the original. 
 
