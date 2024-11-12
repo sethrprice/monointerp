@@ -27,7 +27,7 @@ Not currently available on crates.io or anything like that.
 
 This library relies on the following dependencies, which are already in `Cargo.toml`:
 
-- **[num-traits](https://crates.io/crates/num-traits) 0.2.19
+- **[num-traits](https://crates.io/crates/num-traits) v0.2.19**
 
 To install dependencies, run 
 
